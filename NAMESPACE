@@ -1,0 +1,16 @@
+import(methods)
+import(AnnotationDbi)
+
+### Only put what is statically exported here. All the AnnObj instances
+### created at load time are dynamically exported (refer to R/zzz.R for
+### the details).
+export(
+    hursta2a520709,
+    hursta2a520709_dbconn,
+    hursta2a520709_dbfile,
+    hursta2a520709_dbschema,
+    hursta2a520709_dbInfo,
+
+    hursta2a520709ORGANISM
+)
+
