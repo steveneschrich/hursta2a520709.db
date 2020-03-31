@@ -49,13 +49,15 @@ hursta_IDs <- system.file("gene_map.txt")
 
 makeDBPackage("HUMANCHIP_DB",
               affy=FALSE,
+	      author = c("Steven Eschrich [aut, cre]"),
+	      maintainer = c("Steven Eschrich <Steven.Eschrich@moffitt.org>"),
               prefix="hursta2a520709",
               fileName="gene_map.txt",
               baseMapType="eg",
               outputDir=".",
               version="1.0.0.",
               manufacturer="Affymetrix",
-              chipName="Human RSTA Custom Affymetrix 2.0 microarray [HuRSTA-2a520709]",
+              chipName="hursta2a520709",
               manufacturerUrl = "http://www.affymetrix.com")
 ```
 
