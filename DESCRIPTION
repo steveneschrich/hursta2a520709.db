@@ -1,7 +1,7 @@
 Package: hursta2a520709.db
 Title: Affymetrix hursta2a520709 annotation data (chip hursta2a520709)
 Description: Affymetrix hursta2a520709 annotation data (chip hursta2a520709) assembled using data from public repositories
-Version: 1.0.0.
+Version: 1.0.0
 Author: Steven Eschrich [aut, cre]
 Maintainer: Steven Eschrich <Steven.Eschrich@moffitt.org>
 Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.48.0), org.Hs.eg.db (>= 3.10.0)
