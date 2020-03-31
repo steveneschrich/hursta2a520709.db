@@ -55,7 +55,7 @@ makeDBPackage("HUMANCHIP_DB",
               fileName="gene_map.txt",
               baseMapType="eg",
               outputDir=".",
-              version="1.0.0.",
+              version="1.0.0",
               manufacturer="Affymetrix",
               chipName="hursta2a520709",
               manufacturerUrl = "http://www.affymetrix.com")
